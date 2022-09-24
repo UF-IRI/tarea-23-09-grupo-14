@@ -9,6 +9,7 @@ int main(int argc, char** argv)
     x = 45;
     y = 12;
     z = mayor(x, y);
-
-    cout << z;
+    w = menor(x, y);
+    cout << "El numero mayor es: " << z;
+    cout << "El numero menor es: " << w;
 }
