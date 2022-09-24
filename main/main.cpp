@@ -1,12 +1,14 @@
 #include <cstdlib>
 #include <iostream>
-
+#include "funciones.h"
 #include "example.h"
-
+using namespace std;
 int main(int argc, char** argv)
 {
-    foobar::Example example{};
-    std::cout << "Example.getValue() => " << example.getValue() << std::endl;
+    int x, y, z, w;
+    x = 45;
+    y = 12;
+    z = mayor(x, y);
 
-    return EXIT_SUCCESS;
+    cout << z;
 }
