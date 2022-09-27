@@ -27,4 +27,16 @@ int menor(int a, int b)
 	}
 }
 
+int factorial(int n)
+{
+	int i = 0;
+	int aux = n-i;
+
+	if (n == 0)
+	{
+		return 1;
+	}
+	else return aux * n + factorial(n - 1);
+}
+
 

@@ -10,6 +10,9 @@ int main(int argc, char** argv)
     y = 12;
     z = mayor(x, y);
     w = menor(x, y);
-    cout << "El numero mayor es: " << z;
-    cout << "El numero menor es: " << w;
+    int fact = factorial(5);
+    cout << "El numero mayor es: " << z<<endl;
+    cout << "El numero menor es: " << w<<endl;
+    cout << fact;
+
 }
