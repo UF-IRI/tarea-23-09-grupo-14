@@ -12,10 +12,13 @@ namespace foobar::tests
 	}
 	
 
-	TEST(primerostest3, menor1)
+	TEST(primerostest2, menor1)
 	{
 		ASSERT_THAT(menor(54, 4), 4); //funciona correctamente
 	}
-
+	TEST(primerostest3, factorial1)
+	{
+		ASSERT_THAT(factorial(5), 120);
+	}
 	
 }

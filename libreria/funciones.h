@@ -29,14 +29,12 @@ int menor(int a, int b)
 
 int factorial(int n)
 {
-	int i = 0;
-	int aux = n-i;
-
-	if (n == 0)
+	int acum = 1;
+	for (int i = 1;i <=n; i++)
 	{
-		return 1;
+		acum = acum*i;
 	}
-	else return aux * n + factorial(n - 1);
+	return acum;
 }
 
 
